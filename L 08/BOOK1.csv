@@ -1,0 +1,15 @@
+,Outlook_Overcast,Outlook_Rain,Outlook_Sunny,Temp_Cool,Temp_Hot,Temp_Mild,Humidity_High,Humidity_Normal,Wind_Strong,Wind_Weak
+0,False,False,True,False,True,False,True,False,False,True
+1,False,False,True,False,True,False,True,False,True,False
+2,True,False,False,False,True,False,True,False,False,True
+3,False,True,False,False,False,True,True,False,False,True
+4,False,True,False,True,False,False,False,True,False,True
+5,False,True,False,True,False,False,False,True,True,False
+6,True,False,False,True,False,False,False,True,True,False
+7,False,False,True,False,False,True,True,False,False,True
+8,False,False,True,True,False,False,False,True,False,True
+9,False,True,False,False,False,True,False,True,False,True
+10,False,False,True,False,False,True,False,True,True,False
+11,True,False,False,False,False,True,True,False,True,False
+12,True,False,False,False,True,False,False,True,False,True
+13,False,True,False,False,False,True,True,False,True,False

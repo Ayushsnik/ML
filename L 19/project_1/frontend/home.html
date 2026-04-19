@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" id="num" placeholder="enter a number" />
+    <button onclick="Fact()" >Submit</button>
+    <p id="result"></p>
+    <script>
+        function Fact() {
+            let n = document.getElementById("num").value;
+            if (n < 0) {
+                alert("enter a positive number");
+                return ;
+            }
+            fetch("http://127.0.0.1:5000/factorial?n=" + n)
+                .then(result => result.json())
+                .then(data => {
+                    p = document.getElementById("result");
+                    p.innerText = "Factorial is : " + data.ans;
+                })
+
+                .catch((err) => console.log(err));
+
+        }
+
+    </script>
+</body>
+
+</html>
